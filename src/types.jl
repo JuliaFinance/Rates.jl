@@ -18,7 +18,6 @@ given an annual rate `r` and year fraction `t`.
 """
 struct Continuous <: Compounding end
 
-
 """
 The Effective Rate Factor under `Simple` compounding
 is defined by:
@@ -30,7 +29,6 @@ is defined by:
 given an annual rate `r` and year fraction `t`.
 """
 struct Simple <: Compounding end
-
 
 """
 The Effective Rate Factor under `Exponential` compounding
