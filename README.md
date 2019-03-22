@@ -1,5 +1,15 @@
 # Rates.jl
 
+[![License][license-img]](LICENSE)
+[![travis][travis-img]][travis-url]
+[![codecov][codecov-img]][codecov-url]
+
+[license-img]: http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
+[travis-img]: https://img.shields.io/travis/JuliaFinance/Rates.jl/master.svg?label=Linux+/+macOS
+[travis-url]: https://travis-ci.org/JuliaFinance/Rates.jl
+[codecov-img]: https://img.shields.io/codecov/c/github/JuliaFinance/Rates.jl/master.svg?label=codecov
+[codecov-url]: http://codecov.io/github/JuliaFinance/Rates.jl?branch=master
+
 Rates.jl provides methods to convert an interest rate into a discount factor.
 
 ## Example
