@@ -17,8 +17,8 @@ Rates.jl provides methods to convert an interest rate into a discount factor.
 ```julia
 import Rates
 
-r = 0.1
-t = 1.5
+r = 0.1 # an interest rate of 10%
+t = 1.5 # one and a half year (yearfraction)
 
 Rates.erf(Rates.Continuous, r, t)
 Rates.discountfactor(Rates.Continuous, r, t)
