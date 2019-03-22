@@ -37,4 +37,3 @@ end
     @test_throws AssertionError Rates.discountfactor(Rates.Exponential, r, -0.1)
     @test_throws AssertionError Rates.discountfactor_to_rate(Rates.Exponential, 1.0, -0.1)
 end
-

@@ -43,4 +43,3 @@ is defined by:
 given an annual rate `r` and year fraction `t`.
 """
 struct Exponential <: Compounding end
-

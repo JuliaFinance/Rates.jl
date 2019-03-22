@@ -17,7 +17,7 @@ function erf
 end
 
 function erf(::Continuous, r::AbstractFloat, t::AbstractFloat)
-    check_positive_maturity(t)    
+    check_positive_maturity(t)
     return t == 0.0 ? 1.0 : exp(r*t)
 end
 
@@ -84,4 +84,3 @@ for fun in (:erf, :discountfactor, :erf_to_rate, :discountfactor_to_rate)
         end
     end
 end
-
